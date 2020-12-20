@@ -1,0 +1,13 @@
+@echo off
+echo Creating virtual environment...
+
+python -m venv virt
+./virt/bin/activate
+
+echo Installing dependencies...
+
+python -m pip install pandas selenium
+
+echo Starting...
+
+python application.py drivers/chromedriver_win32
