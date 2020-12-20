@@ -24,10 +24,8 @@ class ScraperApplication:
 
         driver.minimize_window()
 
-        #user_email = input("Type your Linkedin email here: ")
-        #user_password = getpass.getpass("Type your Linkedin password in the hidden field...")
-        user_email = "wesleybarros950@gmail.com"
-        user_password = "microwarriorsU6431"
+        user_email = input("Type your Linkedin email here: ")
+        user_password = getpass.getpass("Type your Linkedin password in the hidden field...")
 
         driver.get("https://linkedin.com")
         driver.maximize_window()
